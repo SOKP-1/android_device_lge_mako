@@ -22,6 +22,9 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         VisualizationWallpapers
+        
+#Get the  APNs
+PRODUCT_COPY_FILES := vendor/sokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml        
 
 
 # Inherit from the common Open Source product configuration
